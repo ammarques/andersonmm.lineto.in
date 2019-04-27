@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Passionate NodeJS developer, I like web scrapers, automation, multimedia development / experimentation, digital security and everything else that comes with it">
+    <meta name="viewport" content="width=device-width">
+    <title>Anderson Marques / Full stack developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="scribbler-global.css">
+    <link rel="stylesheet" href="scribbler-doc.css">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138072297-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-138072297-1');
+    </script>
+
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+  </head>
+  <body>
+    <div class="doc__bg"></div>
+    <nav class="header">
+      <h1 class="logo">Scribbler <span class="logo__thin">Doc</span></h1>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-github"></i>Github</a></li>
+        <li class="menu__item"><a href="index.html" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <aside class="doc__nav">
+        
+        <ul>
+          <li class="meandana"><img alt="A picture of me and my daugher Ana" src="./eueana.jpg" width="95px" /></li>
+          <li class="js-btn selected">About me</li>
+          <li class="js-btn">Projects</li>
+          <li class="js-btn">Freelancing</li>
+          <li class="js-btn">Contact</li>
+        </ul>
+      </aside>
+      <article class="doc__content">
+        <section class="js-section">
+          <h3 class="section__title">I'm Anderson Marques</h3>
+          <p>I started my career as a web designer in the earlies 2000, but that was not my thing... fast foward 2 years, I switched from design to web development, and that's what I've been doing since then... back or front-end, web and mobile(Android); nowadays I mostly work as a freelancer.</p>
+          <p>
+          - Software Engineer based in Boston / MA<br/>
+          - 37 years old, married, father of two<br/>
+          - I like <u>Multimedia Development</u> (games, presentations and mostly experimentation), <u>Web Scrapers</u> (seriously, I like them) and <u>Digital Security</u> .<br/>
+          - I'm passionate about NodeJS but generaly speaking I'm quite handy with any Linux ecosystem technology.
+          </p>
+          <p>This is all about personal projects, things I've done and I'm somehow proud of it, and also my personal roadmap, things that I aim to do, if you want more technical information about my professional background (companies or comercial projects I had worked on), feel free to reach me on the contact section.
+          </p>
+        </section>
+         <hr />
+        <section class="js-section">
+          <h3 class="section__title">Projects</h3>
+          <p>I'm listing here just personal projects, things I have done, tried to or I'll eventually build in the future.
+            <br/>It 's no surprise that all of them are related in some level to social media and scraping mechanics.
+          </p>
+
+          <p><b>What I'm currently working on:</b></p>
+
+          <table>
+            <tr>
+              <td>Joint Finder</td>
+              <td>
+                This is going to be the base of many projects that I have in mind... and a soon to be NodeJS module; my goal here is to be able to find my way to Restaurants public data available in websites like OpenTable, Yelp, TripAdvisor and many others without using their official API's... why you may ask? because they're not available for simple mortals like myself.<br/><br/>
+                It's basicaly a scraper using Puppeteer and afinity text analysis in order to search, classify and provide a JSON with restaurant suggestions that normaly wouldn't be available without access to their official API's.<br/><br/>
+                <a href="https://github.com/ammarques/joint-finder" target="_blank">https://github.com/ammarques/joint-finder</a>
+              </td>
+            </tr>       
+            <tr>
+              <td>Text Analysis</td>
+              <td>
+                My goals here is to grab a piece of text and squeeze information out of it by performing text analysis like detecting sentiment, extracting entities and key word highlighting.<br/><br/>
+                My stack here so far is a <u>Linux Centos 7</u>, Docker container with the amazing Stanford NLP project in Java<u></u>, <u>Google Cloud NLP</u> and <u> AFINN</u> table library for <u>NodeJS</u> for storage I'm considering <u>MongoDB</u>.
+              </td>
+            </tr>     
+          </table>
+
+          <p><b>Stuff I've done, that are no longer active:</b></p>
+
+          <table>
+            <tr>
+              <td><b>Social Media Research</b></td>
+              <td>
+              A NodeJS crawler that was looking for the keywords <u>autism</u> and <u>asperger</u> at Facebook and Twitter, all the data was then stored or shared on different ends, from email to different Google Groups where users would be able to search the indexed data.<br/><br/>
+              While the project itself is no longer active since 2012, the groups still exist though with some sample data that was collected.<br/>
+              <a href="https://groups.google.com/forum/#!forum/asperger-research" target="_blank">Autism Social Media Research</a><br/>
+              <a href="https://groups.google.com/forum/#!forum/asperger-research" target="_blank">Asperger Research</a><br/><br/>
+              From time to time, people still try to subscribe to those groups, as a father of two kids with autism I feel quite tempted to rebuild this.
+              </td>
+            </tr>
+            <tr>
+              <td><b>Airbnb Dynamic Pricing</b></td>
+              <td>
+                I created a web scraper  to collect the cheapest room prices form hotels (Marriott and Kendal) at Cambridge / MIT Campus in order to allow my customer to better adjust his prices on Airbnb<br/><br/>
+
+                My stack was <u>Linux Centos 6</u>, <u>PhantomJS</u>, <u>NodeJS</u>/<u>Horseman</u> and <u>MongoDB</u> on this one.<br/>
+                What before was just a informal bounch of rooms at Airbnb now is a company dedicated to that business, you can find good deals and more information about it at:
+                <a href="http://www.techostay.com" target="_blank">http://www.techostay.com</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>NodeJS Instagram Search Module</b></td>
+              <td>
+                Just a wraper to provide simple but continuous search integration with Instagram by using it's tag channel.<br/>
+
+                <a href="https://github.com/ammarques/insta_search" target="_blank">github.com/ammarques/insta_search</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Android Custom Views</b></td>
+              <td>
+                A collection of Custom Views, aimed to reduce boilerplate code by creating components that use good ui patherns.<br/><br/>
+                My goal here was to create a bunch of different components, but for some reason I just created one hahaha maybe in the future.<br/>
+
+                <a href="https://github.com/ammarques/ccomponents" target="_blank">github.com/ammarques/ccomponents</a>
+              </td>
+            </tr>
+          </table>
+          <hr />
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Freelancing</h3>
+          <p>
+            <b>Fiverr</b><br/>
+            I have a bunch of different Web Scrapping GIGS at Fiverr.com (as service, build your own custom environment, custom desktop application) and I also offer consulting:<br/>
+            <a href="https://www.fiverr.com/users/andersonmm" target="_blank"> https://www.fiverr.com/users/andersonmm</a><br/><br/>
+
+            <b>Upwork</b><br/>
+            <a href="https://www.upwork.com/o/profiles/users/_~01b3032547c008d95e/" target="_blank">www.upwork.com</a>
+          </p>
+          <hr />
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Contact</h3>
+          <p>
+            Feel free to reach me on the social networks bellow, or contact me directly.
+          </p>
+          <p>
+            <b>Github:</b> <a href="https://github.com/ammarques" target="_blank">https://github.com/ammarques</a><br/>
+            <b>Linkedin:</b> <a href="https://www.linkedin.com/in/andersonmmarques/" target="_blank">https://www.linkedin.com/in/andersonmmarques</a><br/>
+            <b>Twitter:</b> <a href="https://twitter.com/ammarques" target="_blank">https://twitter.com/ammarques</a><br/><br/>
+            <a style="background-color: #FE6A6B; color: white; padding: 10px;" href="./form.html" data-featherlight="iframe" data-featherlight-iframe-height="450" data-featherlight-iframe-width="550">Send me a Message!</a>
+          </p>
+        </section>
+      </article>
+    </div>
+
+    <footer class="footer">This website is based on the amazing free html template Scribbler, which is available for free to be download here <a href="https://tympanus.net/codrops/?p=33686" target="_blank" class="link link--light">Codrops</a></footer>
+    <script src="scribbler.js"></script>
+  </body>
+</html>
